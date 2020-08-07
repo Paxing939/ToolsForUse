@@ -1,0 +1,156 @@
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/ 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+Permission denied
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/ 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+Permission denied
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad100/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad100.dir/build.make CMakeFiles/cmTC_ad100.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_ad100.dir/main.cu.o
+/usr/     -x cu -c /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_ad100.dir/main.cu.o
+make[1]: execvp: /usr/: Permission denied
+make[1]: *** [CMakeFiles/cmTC_ad100.dir/build.make:86: CMakeFiles/cmTC_ad100.dir/main.cu.o] Error 127
+make[1]: Leaving directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_ad100/fast] Error 2
+
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-11.0 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+Permission denied
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-11.0 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+Permission denied
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bbae/fast && /usr/bin/make  -f CMakeFiles/cmTC_9bbae.dir/build.make CMakeFiles/cmTC_9bbae.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_9bbae.dir/main.cu.o
+/usr/local/cuda-11.0     -x cu -c /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_9bbae.dir/main.cu.o
+make[1]: execvp: /usr/local/cuda-11.0: Permission denied
+make[1]: *** [CMakeFiles/cmTC_9bbae.dir/build.make:86: CMakeFiles/cmTC_9bbae.dir/main.cu.o] Error 127
+make[1]: Leaving directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_9bbae/fast] Error 2
+
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-11.0/ 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+Permission denied
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-11.0/ 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+Permission denied
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_814a3/fast && /usr/bin/make  -f CMakeFiles/cmTC_814a3.dir/build.make CMakeFiles/cmTC_814a3.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_814a3.dir/main.cu.o
+/usr/local/cuda-11.0/     -x cu -c /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_814a3.dir/main.cu.o
+make[1]: execvp: /usr/local/cuda-11.0/: Permission denied
+make[1]: *** [CMakeFiles/cmTC_814a3.dir/build.make:86: CMakeFiles/cmTC_814a3.dir/main.cu.o] Error 127
+make[1]: Leaving directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_814a3/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7aeb2/fast && /usr/bin/make  -f CMakeFiles/cmTC_7aeb2.dir/build.make CMakeFiles/cmTC_7aeb2.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aeb2.dir/src.c.o
+/usr/bin/cc   -fPIC -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7aeb2.dir/src.c.o   -c /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7aeb2
+/home/ilya/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aeb2.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_7aeb2.dir/src.c.o  -o cmTC_7aeb2 
+/usr/bin/ld: CMakeFiles/cmTC_7aeb2.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7aeb2.dir/build.make:107: cmTC_7aeb2] Error 1
+make[1]: Leaving directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_7aeb2/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_440c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_440c4.dir/build.make CMakeFiles/cmTC_440c4.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_440c4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_440c4.dir/CheckFunctionExists.c.o   -c /home/ilya/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_440c4
+/home/ilya/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_440c4.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_440c4.dir/CheckFunctionExists.c.o  -o cmTC_440c4  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_440c4.dir/build.make:107: cmTC_440c4] Error 1
+make[1]: Leaving directory '/home/ilya/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_440c4/fast] Error 2
+
+
+
